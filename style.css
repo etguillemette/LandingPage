@@ -1,0 +1,146 @@
+body{
+    display:flex;
+    flex-direction:column;
+    font-family:'Roboto', sans-serif;
+    margin:0;
+}
+
+.top-section{
+    display:flex;
+    flex-direction:column;
+    background-color: #1F2937;
+}
+
+.header{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header .logo{
+    font-size:24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li{
+    font-size: 18px;
+    color: #E5E7Eb;
+    list-style: none;
+}
+
+.hero-wrapper{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 100px;
+    justify-content:center;
+}
+
+.hero-box{
+    display:flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+}
+
+.hero-box .hero-text{
+    display:flex;
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.hero-box .hero-subtext{
+    display:flex;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.hero-wrapper .hero-image{
+    background-color: #999999;
+    width: 300px;
+    height: 200px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-box p{
+    display:flex;
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+.hero-box .hero-button{
+    color:white;
+    background-color: #3882F6;
+    border-radius: 10%;
+    width:fit-content;
+    padding:5px 20px;
+}
+
+.mid-top{
+    display:flex;
+    flex-flow: column wrap;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+.mid-top .card-wrapper{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    gap: 30px;
+}
+
+.card{
+    display:flex;
+    flex-flow: column wrap;
+    flex: 0 1 8em;
+}
+
+.card-image{
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10%;
+    height: 8em;
+    width: 8em;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.mid-bottom{
+    display:flex;
+    flex-flow:column wrap;
+    background-color:#E5E7EB;
+    padding: 50px 300px;
+}
+
+.mid-bottom .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color:#1F2937;
+}
+
+.mid-bottom .attribution{
+    font-size: 24px;
+    font-weight:bold;
+    color:#1F2937;
+    text-align:right;
+}
