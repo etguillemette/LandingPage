@@ -144,3 +144,41 @@ body{
     color:#1F2937;
     text-align:right;
 }
+
+.cta-box{
+    background-color: #3882F6;
+    margin:100px;
+    padding: 40px 100px;
+    color:white;
+    border-radius:10px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.cta-box .cta-text{
+}
+
+.cta-text p{
+    
+}
+
+.cta-box .cta-button{
+    color:white;
+    border-color:white;
+    border-style:solid;
+    border-radius: 5px;
+    width:fit-content;
+    padding:5px 20px;
+    height:min-content;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align:center;
+    font-size:10pt;
+}
